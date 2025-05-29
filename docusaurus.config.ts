@@ -76,9 +76,15 @@ const config: Config = {
       title: 'AstrevalRP',
       logo: {
         alt: 'AstrevalRP Logo',
-        src: 'img/logo.svg',
+        src: 'img/astrevalrp-logo.jpeg',
       },
       items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Tutorial',
+        },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
