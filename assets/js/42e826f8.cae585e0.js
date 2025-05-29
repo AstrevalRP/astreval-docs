@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkastreval_docs=self.webpackChunkastreval_docs||[]).push([[8],{4811:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/astreval-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
