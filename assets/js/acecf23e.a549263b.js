@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkastreval_docs=self.webpackChunkastreval_docs||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/astreval-docs/blog","blogTitle":"Blog","authorsListPath":"/astreval-docs/blog/authors"}')}}]);
