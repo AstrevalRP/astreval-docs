@@ -4,6 +4,8 @@ sidebar_position: 7
 
 # Custom Shape
 
+Dans Minecraft, les "shapes" (formes) définissent la forme d'un bloc. Par défaut, un bloc a une forme pleine de 16x16x16 pixels, mais il est possible de réduire cette forme ou de créer des shapes personnalisés pour mieux correspondre à des items plus petits ou plus complexes, comme une chaise.
+
 ## Créer un SHAPE custom
 
 ![Capture d’écran 2024-11-18 à 15.01.02.png](./assets/custom-shape/Capture_decran_2024-11-18_a_15.01.02.png)
