@@ -27,6 +27,14 @@ public class GrapplingHookEntity extends ThrownItemEntity {
 }
 ```
 
+Dans cette classe, vous pouvez surcharger les méthodes suivantes pour définir les comportements spécifiques lorsque l'entité ou objet lancé entre en collision dans le jeu, telles que l'application de dégâts, l'engendrement de particules, ou toute autre mécanique que vous souhaitez implémenter. 
+
+| Méthode                            | Description                                                                                       |
+|------------------------------------|---------------------------------------------------------------------------------------------------|
+| `onCollision(HitResult hitResult)` | Cette méthode est appelée lorsque l'entité lancée entre en collision avec une entité ou un bloc.  |
+| `onEntityHit(EntityHitResult entityHitResult)` | Cette méthode est appelée spécifiquement lorsque l'objet lancé frappe une autre entité.       |
+| `onBlockHit(BlockHitResult blockHitResult)` | Cette méthode est invoquée lorsque l'objet lancé entre en collision avec un bloc.              |
+
 ### Enregistrement de l'Entité - `ModEntities`
 
 - Fichier : `src/main/java/fr/astreval/entity/ModEntities.java`
